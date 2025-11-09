@@ -1,3 +1,14 @@
+# Stock Dashboard Frontend
+
+A stock dashboard application built with Next.js, featuring user authentication and live stock data integration.
+
+## Features
+
+- ✅ **UI built with Next.js** – Modern, responsive frontend design.
+- ✅ **User Authentication** – Users can successfully register and log in.
+- ✅ **Database Integration** – User data is stored in database(MongoDB).
+- ✅ **Stock Data Fetching** – Application successfully fetches and displays stock market data.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
