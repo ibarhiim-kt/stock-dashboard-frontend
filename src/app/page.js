@@ -1,0 +1,15 @@
+import Image from "next/image";
+import Navbar from "./components/Navbar";
+import Dashboard from "./components/Dashboard";
+
+import RegisterPage from "./components/RegisterPage";
+
+export default function Home() {
+  return (
+  <>
+   <Navbar/>
+   <Dashboard/>
+   
+  </>
+  );
+}
