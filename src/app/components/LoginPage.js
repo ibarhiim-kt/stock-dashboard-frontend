@@ -11,10 +11,10 @@ export default function LoginPage() {
     e.preventDefault()
 
     try {
-      const res = await fetch('http://localhost:3000/login', { // backend on 4000
+      const res = await fetch('http://localhost:3000/login', { 
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        credentials: 'include', // keeps session cookies
+        credentials: 'include',
         body: JSON.stringify({ username, password }),
       })
 
@@ -22,7 +22,7 @@ export default function LoginPage() {
 
       if (data.success) {
         alert('Login successful!')
-        router.push('/') // redirect to home after login
+        router.push('/') 
       } else {
         alert(data.message || 'Login failed')
       }
